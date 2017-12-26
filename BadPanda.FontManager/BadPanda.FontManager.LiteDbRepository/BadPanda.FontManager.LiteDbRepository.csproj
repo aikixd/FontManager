@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BadPanda.FontManager.Core\BadPanda.FontManager.Core.csproj" />
-    <ProjectReference Include="..\BadPanda.FontManager.Extentions\BadPanda.FontManager.Extentions.csproj" />
     <ProjectReference Include="..\BadPanda.FontManager.Infrastructure\BadPanda.FontManager.Infrastructure.csproj" />
-    <ProjectReference Include="..\BadPanda.FontManager.OsTools\BadPanda.FontManager.OsTools.csproj" />
     <ProjectReference Include="..\BadPanda.FontManager.Repository\BadPanda.FontManager.Repository.csproj" />
   </ItemGroup>
 

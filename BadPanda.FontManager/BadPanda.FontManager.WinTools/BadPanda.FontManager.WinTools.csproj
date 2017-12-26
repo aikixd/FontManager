@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BadPanda.FontManager.Infrastructure\BadPanda.FontManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\BadPanda.FontManager.OsTools\BadPanda.FontManager.OsTools.csproj" />
+  </ItemGroup>
+
 </Project>

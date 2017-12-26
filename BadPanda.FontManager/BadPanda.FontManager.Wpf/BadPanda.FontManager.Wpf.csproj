@@ -93,5 +93,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BadPanda.FontManager.Core\BadPanda.FontManager.Core.csproj">
+      <Project>{08ea52ae-51b9-47db-89d2-5eabcde45513}</Project>
+      <Name>BadPanda.FontManager.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BadPanda.FontManager.Cqrs\BadPanda.FontManager.Cqrs.csproj">
+      <Project>{f218ec41-2692-4dc1-bb57-6ef289d04379}</Project>
+      <Name>BadPanda.FontManager.Cqrs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BadPanda.FontManager.Extentions\BadPanda.FontManager.Extentions.csproj">
+      <Project>{6c18a609-bf9f-485a-b681-e1c5873d9b8d}</Project>
+      <Name>BadPanda.FontManager.Extentions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
