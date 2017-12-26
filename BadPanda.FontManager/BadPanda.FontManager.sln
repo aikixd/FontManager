@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Extent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.LiteDbRepository", "BadPanda.FontManager.LiteDbRepository\BadPanda.FontManager.LiteDbRepository.csproj", "{1DD5C4C1-B54D-4900-B1B0-CFFCA238223E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Fonts", "BadPanda.FontManager.Fonts\BadPanda.FontManager.Fonts.csproj", "{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{1DD5C4C1-B54D-4900-B1B0-CFFCA238223E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD5C4C1-B54D-4900-B1B0-CFFCA238223E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD5C4C1-B54D-4900-B1B0-CFFCA238223E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
