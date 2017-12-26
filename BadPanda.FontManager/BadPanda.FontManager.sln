@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Wpf", "BadPanda.FontManager.Wpf\BadPanda.FontManager.Wpf.csproj", "{CFF7DCFA-312F-42E9-BF2F-619164217B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Cqrs", "BadPanda.FontManager.Cqrs\BadPanda.FontManager.Cqrs.csproj", "{F218EC41-2692-4DC1-BB57-6EF289D04379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Core", "BadPanda.FontManager.Core\BadPanda.FontManager.Core.csproj", "{08EA52AE-51B9-47DB-89D2-5EABCDE45513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.OsTools", "BadPanda.FontManager.OsTools\BadPanda.FontManager.OsTools.csproj", "{17148FB9-AF79-4CAF-B44D-052731E94E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.WinTools", "BadPanda.FontManager.WinTools\BadPanda.FontManager.WinTools.csproj", "{B5F2F148-74EB-4B63-9911-494C710181A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Repository", "BadPanda.FontManager.Repository\BadPanda.FontManager.Repository.csproj", "{B7C3EA3F-4A6A-46E1-BD65-CA82CE6D9141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF7DCFA-312F-42E9-BF2F-619164217B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF7DCFA-312F-42E9-BF2F-619164217B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF7DCFA-312F-42E9-BF2F-619164217B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF7DCFA-312F-42E9-BF2F-619164217B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F218EC41-2692-4DC1-BB57-6EF289D04379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F218EC41-2692-4DC1-BB57-6EF289D04379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F218EC41-2692-4DC1-BB57-6EF289D04379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F218EC41-2692-4DC1-BB57-6EF289D04379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EA52AE-51B9-47DB-89D2-5EABCDE45513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EA52AE-51B9-47DB-89D2-5EABCDE45513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EA52AE-51B9-47DB-89D2-5EABCDE45513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EA52AE-51B9-47DB-89D2-5EABCDE45513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17148FB9-AF79-4CAF-B44D-052731E94E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17148FB9-AF79-4CAF-B44D-052731E94E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17148FB9-AF79-4CAF-B44D-052731E94E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17148FB9-AF79-4CAF-B44D-052731E94E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F2F148-74EB-4B63-9911-494C710181A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F2F148-74EB-4B63-9911-494C710181A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F2F148-74EB-4B63-9911-494C710181A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F2F148-74EB-4B63-9911-494C710181A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C3EA3F-4A6A-46E1-BD65-CA82CE6D9141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C3EA3F-4A6A-46E1-BD65-CA82CE6D9141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C3EA3F-4A6A-46E1-BD65-CA82CE6D9141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C3EA3F-4A6A-46E1-BD65-CA82CE6D9141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69CDD0F9-3284-4C13-9757-2D6B4BD486E7}
+	EndGlobalSection
+EndGlobal
