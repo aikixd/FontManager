@@ -1,6 +1,9 @@
-﻿namespace BadPanda.FontManager.Wpf.ViewModels
+﻿using Caliburn.Micro;
+
+namespace BadPanda.FontManager.Wpf.ViewModels
 {
-    public class PresentationViewModel
+    public interface IPresentationViewModel { }
+    public class PresentationViewModel: PropertyChangedBase, IPresentationViewModel
     {
         
     }

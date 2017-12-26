@@ -1,6 +1,8 @@
 namespace BadPanda.FontManager.Wpf {
     using System;
     using System.Collections.Generic;
+    using BadPanda.FontManager.Wpf.Models;
+    using BadPanda.FontManager.Wpf.ViewModels;
     using Caliburn.Micro;
 
     public class AppBootstrapper : BootstrapperBase {
@@ -15,6 +17,10 @@ namespace BadPanda.FontManager.Wpf {
 
             container.Singleton<IWindowManager, WindowManager>();
             container.Singleton<IEventAggregator, EventAggregator>();
+            container.Singleton<IFontModel, FontModel>();
+            container.Singleton<IFontViewModel, FontsDisplayViewModel>();
+            container.Singleton<ICategoriesViewModel, CategoriesViewModel>();
+            container.Singleton<IPresentationViewModel, PresentationViewModel>();
             container.PerRequest<IShell, ShellViewModel>();
         }
 

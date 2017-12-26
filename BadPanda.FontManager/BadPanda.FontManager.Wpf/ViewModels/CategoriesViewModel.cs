@@ -1,6 +1,9 @@
-﻿namespace BadPanda.FontManager.Wpf.ViewModels
+﻿using Caliburn.Micro;
+
+namespace BadPanda.FontManager.Wpf.ViewModels
 {
-    public class CategoriesViewModel
+    public interface ICategoriesViewModel { }
+    public class CategoriesViewModel: PropertyChangedBase, ICategoriesViewModel
     {
         
     }
