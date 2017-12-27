@@ -12,6 +12,8 @@ namespace BadPanda.FontManager.Cqrs
         private readonly IDiskTools _diskTools;
         private readonly FontReader _reader = new FontReader();
 
+        public static Commands Instance = new Commands(null);
+
         public Commands(IDiskTools diskTools)
         {
             _diskTools = diskTools;
@@ -22,5 +24,5 @@ namespace BadPanda.FontManager.Cqrs
             var files = await _diskTools.LoadFontFilesFromPathAsync(path);
             return await _reader.ReadFromAllAsync(files);
         }
-    } 
+    }
 }

@@ -12,16 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using BadPanda.FontManager.Core;
 
-namespace BadPanda.FontManager.Wpf
+namespace BadPanda.FontManager.Wpf.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PresentationView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PresentationView : UserControl
     {
-        public MainWindow()
+        public PresentationView()
         {
             InitializeComponent();
         }
