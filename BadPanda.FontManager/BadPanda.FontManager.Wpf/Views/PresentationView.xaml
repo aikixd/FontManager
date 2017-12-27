@@ -6,7 +6,6 @@
              xmlns:local="clr-namespace:BadPanda.FontManager.Wpf.Views"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-           <TextBlock Text="Presentation"/> 
-    </Grid>
+    <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="5" Text="{Binding DisplayText, 
+        UpdateSourceTrigger=PropertyChanged, Delay=300}"/>
 </UserControl>
