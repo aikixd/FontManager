@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SharpToolkit.FunctionalExtensions" Version="0.1.0-CI00009" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="SharpToolkit.FunctionalExtensions">
       <HintPath>..\..\..\..\Users\Michael Gotfrid\.nuget\packages\sharptoolkit.functionalextensions\0.1.0-ci00003\lib\netstandard2.0\SharpToolkit.FunctionalExtensions.dll</HintPath>
     </Reference>

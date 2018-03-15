@@ -1,27 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Wpf", "BadPanda.FontManager.Wpf\BadPanda.FontManager.Wpf.csproj", "{CFF7DCFA-312F-42E9-BF2F-619164217B78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Cqrs", "BadPanda.FontManager.Cqrs\BadPanda.FontManager.Cqrs.csproj", "{F218EC41-2692-4DC1-BB57-6EF289D04379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.Cqrs", "BadPanda.FontManager.Cqrs\BadPanda.FontManager.Cqrs.csproj", "{F218EC41-2692-4DC1-BB57-6EF289D04379}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Core", "BadPanda.FontManager.Core\BadPanda.FontManager.Core.csproj", "{08EA52AE-51B9-47DB-89D2-5EABCDE45513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.Core", "BadPanda.FontManager.Core\BadPanda.FontManager.Core.csproj", "{08EA52AE-51B9-47DB-89D2-5EABCDE45513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.OsTools", "BadPanda.FontManager.OsTools\BadPanda.FontManager.OsTools.csproj", "{17148FB9-AF79-4CAF-B44D-052731E94E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.OsTools", "BadPanda.FontManager.OsTools\BadPanda.FontManager.OsTools.csproj", "{17148FB9-AF79-4CAF-B44D-052731E94E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.WinTools", "BadPanda.FontManager.WinTools\BadPanda.FontManager.WinTools.csproj", "{B5F2F148-74EB-4B63-9911-494C710181A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.WinTools", "BadPanda.FontManager.WinTools\BadPanda.FontManager.WinTools.csproj", "{B5F2F148-74EB-4B63-9911-494C710181A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Repository", "BadPanda.FontManager.Repository\BadPanda.FontManager.Repository.csproj", "{B7C3EA3F-4A6A-46E1-BD65-CA82CE6D9141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.Repository", "BadPanda.FontManager.Repository\BadPanda.FontManager.Repository.csproj", "{B7C3EA3F-4A6A-46E1-BD65-CA82CE6D9141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Infrastructure", "BadPanda.FontManager.Infrastructure\BadPanda.FontManager.Infrastructure.csproj", "{001FE093-A868-45C4-A8BC-BE66BE58CCB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.Infrastructure", "BadPanda.FontManager.Infrastructure\BadPanda.FontManager.Infrastructure.csproj", "{001FE093-A868-45C4-A8BC-BE66BE58CCB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Extentions", "BadPanda.FontManager.Extentions\BadPanda.FontManager.Extentions.csproj", "{6C18A609-BF9F-485A-B681-E1C5873D9B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.Extentions", "BadPanda.FontManager.Extentions\BadPanda.FontManager.Extentions.csproj", "{6C18A609-BF9F-485A-B681-E1C5873D9B8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.LiteDbRepository", "BadPanda.FontManager.LiteDbRepository\BadPanda.FontManager.LiteDbRepository.csproj", "{1DD5C4C1-B54D-4900-B1B0-CFFCA238223E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.LiteDbRepository", "BadPanda.FontManager.LiteDbRepository\BadPanda.FontManager.LiteDbRepository.csproj", "{1DD5C4C1-B54D-4900-B1B0-CFFCA238223E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FontManager.Fonts", "BadPanda.FontManager.Fonts\BadPanda.FontManager.Fonts.csproj", "{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadPanda.FontManager.Fonts", "BadPanda.FontManager.Fonts\BadPanda.FontManager.Fonts.csproj", "{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FreeType", "BadPanda.FreeType\BadPanda.FreeType.csproj", "{A9D332C8-2B02-43EC-87E2-7773DC2AFA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadPanda.FreeType.InteropTestApp", "BadPanda.FreeType.InteropTestApp\BadPanda.FreeType.InteropTestApp.csproj", "{814AED84-0079-46DE-AD8E-5315EC4016FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6467334D-2E8E-4CD5-A9A7-3D1306E1C760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D332C8-2B02-43EC-87E2-7773DC2AFA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D332C8-2B02-43EC-87E2-7773DC2AFA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D332C8-2B02-43EC-87E2-7773DC2AFA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D332C8-2B02-43EC-87E2-7773DC2AFA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814AED84-0079-46DE-AD8E-5315EC4016FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814AED84-0079-46DE-AD8E-5315EC4016FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814AED84-0079-46DE-AD8E-5315EC4016FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814AED84-0079-46DE-AD8E-5315EC4016FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
